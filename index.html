@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paquete de Plugins para NovalithMC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1e1e2f;
+            color: #eee;
+            margin: 0;
+            padding: 0 20px;
+        }
+        header {
+            background-color: #2a2a45;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 3px solid #ff6f61;
+        }
+        h1 {
+            margin: 0;
+            color: #ff6f61;
+        }
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            background-color: #2a2a45;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px #ff6f61aa;
+        }
+        h2 {
+            color: #ff6f61;
+            border-bottom: 2px solid #ff6f61;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            margin: 8px 0;
+            line-height: 1.4;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .plugin-name {
+            flex-grow: 1;
+        }
+        a.download-icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+            fill: #ff6f61;
+            transition: fill 0.3s ease;
+        }
+        a.download-icon:hover {
+            fill: #e65b4f;
+        }
+        .download-btn {
+            display: block;
+            background-color: #ff6f61;
+            color: white;
+            padding: 15px 30px;
+            margin: 15px 0;
+            font-size: 1.2em;
+            border-radius: 6px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .download-btn:hover {
+            background-color: #e65b4f;
+        }
+        footer {
+            text-align: center;
+            margin: 40px 0 20px;
+            color: #777;
+            font-size: 0.9em;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 0 10px;
+            }
+            section {
+                margin: 20px 0;
+                padding: 15px;
+            }
+            .download-btn {
+                padding: 10px 20px;
+                font-size: 1em;
+            }
+            li {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            a.download-icon {
+                margin-left: 0;
+                margin-top: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Paquete de Plugins para NovalithMC</h1>
+        <p>Todos los plugins esenciales y más para tu servidor Minecraft 1.20.1</p>
+    </header>
+
+    <section>
+        <h2>Plugins Esenciales</h2>
+        <ul>
+            <li>
+                <span class="plugin-name"><strong>EssentialsX</strong>: Comandos básicos del servidor.</span>
+                <a href="https://essentialsx.net/downloads.html" target="_blank" class="download-icon" title="Descargar EssentialsX" aria-label="Descargar EssentialsX">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>EssentialsXChat</strong>: Formato para el chat.</span>
+                <a href="https://essentialsx.net/downloads.html" target="_blank" class="download-icon" title="Descargar EssentialsXChat" aria-label="Descargar EssentialsXChat">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>LuckPerms</strong>: El mejor plugin de permisos.</span>
+                <a href="https://luckperms.net/download" target="_blank" class="download-icon" title="Descargar LuckPerms" aria-label="Descargar LuckPerms">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>WorldGuard</strong>: Protege áreas del mundo.</span>
+                <a href="https://enginehub.org/worldguard/" target="_blank" class="download-icon" title="Descargar WorldGuard" aria-label="Descargar WorldGuard">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>WorldEdit</strong>: Herramienta de construcción masiva.</span>
+                <a href="https://enginehub.org/worldedit/" target="_blank" class="download-icon" title="Descargar WorldEdit" aria-label="Descargar WorldEdit">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>CoreProtect</strong>: Registro de bloques para evitar griefing.</span>
+                <a href="https://www.spigotmc.org/resources/coreprotect.8631/" target="_blank" class="download-icon" title="Descargar CoreProtect" aria-label="Descargar CoreProtect">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>PlaceholderAPI</strong>: Dependencia para muchos plugins.</span>
+                <a href="https://www.spigotmc.org/resources/placeholderapi.6245/" target="_blank" class="download-icon" title="Descargar PlaceholderAPI" aria-label="Descargar PlaceholderAPI">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>Multiverse-Core</strong>: Crea y administra múltiples mundos.</span>
+                <a href="https://dev.bukkit.org/projects/multiverse-core" target="_blank" class="download-icon" title="Descargar Multiverse-Core" aria-label="Descargar Multiverse-Core">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>Multiverse-Portals</strong>: Conecta mundos con portales.</span>
+                <a href="https://dev.bukkit.org/projects/multiverse-portals" target="_blank" class="download-icon" title="Descargar Multiverse-Portals" aria-label="Descargar Multiverse-Portals">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>Vault</strong>: Dependencia para economía y permisos.</span>
+                <a href="https://www.spigotmc.org/resources/vault.34315/" target="_blank" class="download-icon" title="Descargar Vault" aria-label="Descargar Vault">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>ProtocolLib</strong>: Dependencia para modificar el protocolo.</span>
+                <a href="https://www.spigotmc.org/resources/protocollib.1997/" target="_blank" class="download-icon" title="Descargar ProtocolLib" aria-label="Descargar ProtocolLib">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+        </ul>
+        <a href="plugins-esenciales.zip" class="download-btn" download>Descargar Todos los Plugins Esenciales</a>
+    </section>
+
+    <section>
+        <h2>Plugins de Calidad de Vida</h2>
+        <ul>
+            <li>
+                <span class="plugin-name"><strong>ShopGUIPlus</strong>: Tiendas gráficas para comprar y vender ítems.</span>
+                <a href="https://www.spigotmc.org/resources/shopgui.6515/" target="_blank" class="download-icon" title="Descargar ShopGUIPlus" aria-label="Descargar ShopGUIPlus">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>AuctionHouse</strong>: Permite subastar ítems.</span>
+                <a href="https://www.spigotmc.org/resources/auctionhouse.6189/" target="_blank" class="download-icon" title="Descargar AuctionHouse" aria-label="Descargar AuctionHouse">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>Citizens</strong>: Crea NPCs personalizados.</span>
+                <a href="https://www.spigotmc.org/resources/citizens.13811/" target="_blank" class="download-icon" title="Descargar Citizens" aria-label="Descargar Citizens">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>CrateReloaded</strong>: Cajas misteriosas con premios.</span>
+                <a href="https://www.spigotmc.org/resources/cratereloaded.17599/" target="_blank" class="download-icon" title="Descargar CrateReloaded" aria-label="Descargar CrateReloaded">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>MarriageMaster</strong>: Permite casarse en el juego.</span>
+                <a href="https://www.spigotmc.org/resources/marriagemaster.10322/" target="_blank" class="download-icon" title="Descargar MarriageMaster" aria-label="Descargar MarriageMaster">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>GriefPrevention</strong>: Protección de parcelas fácil de usar.</span>
+                <a href="https://www.spigotmc.org/resources/griefprevention.1884/" target="_blank" class="download-icon" title="Descargar GriefPrevention" aria-label="Descargar GriefPrevention">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>ClearLag</strong>: Limpia ítems para reducir lag.</span>
+                <a href="https://www.spigotmc.org/resources/clearlag.68271/" target="_blank" class="download-icon" title="Descargar ClearLag" aria-label="Descargar ClearLag">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>ViaVersion</strong>: Soporte para múltiples versiones de Minecraft.</span>
+                <a href="https://www.spigotmc.org/resources/viaversion.19254/" target="_blank" class="download-icon" title="Descargar ViaVersion" aria-label="Descargar ViaVersion">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>Vialeaders</strong>: Leaderboards entre versiones.</span>
+                <a href="https://www.spigotmc.org/resources/vialeaders.10504/" target="_blank" class="download-icon" title="Descargar Vialeaders" aria-label="Descargar Vialeaders">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>Jobs Reborn</strong>: Trabajos para ganar dinero.</span>
+                <a href="https://www.spigotmc.org/resources/jobs-reborn.4216/" target="_blank" class="download-icon" title="Descargar Jobs Reborn" aria-label="Descargar Jobs Reborn">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>HeadDatabase</strong>: Miles de cabezas decorativas.</span>
+                <a href="https://www.spigotmc.org/resources/head-database.14267/" target="_blank" class="download-icon" title="Descargar HeadDatabase" aria-label="Descargar HeadDatabase">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>CustomCrafting</strong>: Recetas de crafteo personalizadas.</span>
+                <a href="https://www.spigotmc.org/resources/customcrafting.7756/" target="_blank" class="download-icon" title="Descargar CustomCrafting" aria-label="Descargar CustomCrafting">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+        </ul>
+        <a href="plugins-calidad-vida.zip" class="download-btn" download>Descargar Todos los Plugins de Calidad de Vida</a>
+    </section>
+
+    <section>
+        <h2>Plugins de MiniJuegos</h2>
+        <ul>
+            <li>
+                <span class="plugin-name"><strong>BedWarsRel</strong>: Sistema ligero de BedWars.</span>
+                <a href="https://www.spigotmc.org/resources/bedwars-rel.57/" target="_blank" class="download-icon" title="Descargar BedWarsRel" aria-label="Descargar BedWarsRel">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>HungerGames</strong>: Supervivencia todos contra todos.</span>
+                <a href="https://www.spigotmc.org/resources/hungergames.5231/" target="_blank" class="download-icon" title="Descargar HungerGames" aria-label="Descargar HungerGames">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>Spleef</strong>: Minijuego de Spleef.</span>
+                <a href="https://www.spigotmc.org/resources/spleef.1510/" target="_blank" class="download-icon" title="Descargar Spleef" aria-label="Descargar Spleef">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>Parkour</strong>: Mapas de parkour.</span>
+                <a href="https://www.spigotmc.org/resources/parkour.23685/" target="_blank" class="download-icon" title="Descargar Parkour" aria-label="Descargar Parkour">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+        </ul>
+        <a href="plugins-minijuegos.zip" class="download-btn" download>Descargar Todos los Plugins de MiniJuegos</a>
+    </section>
+
+    <section>
+        <h2>Plugins de Chat y Estética</h2>
+        <ul>
+            <li>
+                <span class="plugin-name"><strong>ChatControl Red</strong>: Administra y personaliza el chat.</span>
+                <a href="https://www.spigotmc.org/resources/chatcontrol-red.51958/" target="_blank" class="download-icon" title="Descargar ChatControl Red" aria-label="Descargar ChatControl Red">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>DiscordSRV</strong>: Conecta el servidor con Discord.</span>
+                <a href="https://github.com/DiscordSRV/DiscordSRV/releases" target="_blank" class="download-icon" title="Descargar DiscordSRV" aria-label="Descargar DiscordSRV">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>DeluxeHub</strong>: Hub o lobby central.</span>
+                <a href="https://www.spigotmc.org/resources/deluxehub.34280/" target="_blank" class="download-icon" title="Descargar DeluxeHub" aria-label="Descargar DeluxeHub">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>SuperTrails</strong>: Senderos de partículas.</span>
+                <a href="https://www.spigotmc.org/resources/supertrails.2215/" target="_blank" class="download-icon" title="Descargar SuperTrails" aria-label="Descargar SuperTrails">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>GadgetsMenu</strong>: Menú con gadgets y efectos.</span>
+                <a href="https://www.spigotmc.org/resources/gadgetsmenu.10826/" target="_blank" class="download-icon" title="Descargar GadgetsMenu" aria-label="Descargar GadgetsMenu">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+            <li>
+                <span class="plugin-name"><strong>CustomMobs</strong>: Mobs personalizados.</span>
+                <a href="https://www.spigotmc.org/resources/custommobs.20620/" target="_blank" class="download-icon" title="Descargar CustomMobs" aria-label="Descargar CustomMobs">
+                    <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18v12l5-5-1.41-1.41L13 15.17V2h-2z"/></svg>
+                </a>
+            </li>
+        </ul>
+        <a href="plugins-chat-estetica.zip" class="download-btn" download>Descargar Todos los Plugins de Chat y Estética</a>
+    </section>
+
+    <section style="text-align:center;">
+        <a href="plugins-paquete-completo.zip" class="download-btn" download>Descargar Paquete Completo de Todos los Plugins</a>
+        <p style="margin-top:10px; font-size:0.9em; color:#bbb;">
+            * Asegúrate de tener las dependencias instaladas para algunos plugins.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 NovalithMC - Todos los derechos reservados.</p>
+        <p>Esta página fue hecha por NovalithMC.</p>
+    </footer>
+</body>
+</html>
